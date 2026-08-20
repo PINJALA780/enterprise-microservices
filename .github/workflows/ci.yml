@@ -42,6 +42,9 @@ jobs:
           java-version: '17'
           cache: maven
 
+      - name: Run test
+        run: mvn clean test
+
       - name: Build ${{ matrix.service }}
         run: mvn clean package -DskipTests
 
