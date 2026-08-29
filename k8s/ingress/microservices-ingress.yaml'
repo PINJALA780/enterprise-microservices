@@ -1,0 +1,25 @@
+asus@DESKTOP-CR55B5V:~/enterprise-microservices$ kubectl describe ingress microservices-ingress -n enterprise
+Name:             microservices-ingress
+Labels:           <none>
+Namespace:        enterprise
+Address:          k8s-enterpri-microser-df78aa30e3-316828110.ap-south-1.elb.amazonaws.com
+Ingress Class:    alb
+Default backend:  <default>
+Rules:
+  Host        Path  Backends
+  ----        ----  --------
+  *
+              /users           user-service:8081 (10.0.12.72:8081)
+              /products        product-service:8082 (10.0.12.232:8082)
+              /orders          order-service:8083 (10.0.12.86:8083)
+              /payments        payment-service:8084 (10.0.11.35:8084)
+              /notifications   notification-service:8085 (10.0.11.66:8085)
+Annotations:  alb.ingress.kubernetes.io/conditions.actions.users-rewrite: [{"field":"path-pattern","pathPatternConfig":{"values":["/users/*"]}}]
+              alb.ingress.kubernetes.io/listen-ports: [{"HTTP":80}]
+              alb.ingress.kubernetes.io/scheme: internet-facing
+              alb.ingress.kubernetes.io/target-type: ip
+Events:
+  Type    Reason                  Age                From     Message
+  ----    ------                  ----               ----     -------
+  Normal  SuccessfullyReconciled  50s (x2 over 11m)  ingress  Successfully reconciled
+asus@DESKTOP-CR55B5V:~/enterprise-micr
