@@ -19,3 +19,25 @@ Thumbs.db
 
 # Docker
 docker-compose.override.yml
+
+# Maven
+**/target/
+
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# Environment / secrets
+.env
+*.env
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
