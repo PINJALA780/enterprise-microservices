@@ -1568,23 +1568,9 @@ The current implementation is complete for the demonstrated platform. These are 
 - Least-privilege access
 - GitOps integration without secrets stored in Git
 
-### ☁️ AWS Re-deployment
-After AWS account access is restored:
-1. Validate IAM and AWS CLI access.
-2. Validate or recover Terraform state.
-3. Recreate/recover EKS infrastructure if required.
-4. Reconnect Argo CD.
-5. Validate Kyverno, Metrics Server, KEDA, Prometheus and Grafana.
-6. Re-run end-to-end tests.
-7. Add the planned Datadog and Vault integrations.
+
 
 > **Important:** Datadog and HashiCorp Vault are future enhancements and are not claimed as currently implemented.
-
----
-
-## ⚠️ Deployment Note
-
-The project implementation and validation were completed on AWS EKS. An AWS account-level suspension, billing issue, or exhausted promotional credit can make a previously deployed live environment temporarily inaccessible. Such an account-level condition is separate from the application, Kubernetes manifests, Terraform configuration, and Git repository.
 
 ---
 
