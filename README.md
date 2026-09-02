@@ -1087,18 +1087,13 @@ enterprise-microservices/
 │
 └── docs/
     └── screenshots/
-        ├── aws-eks-cluster.png
         ├── eks-workloads.png
         ├── github-actions.png
         ├── sonarqube.png
         ├── trivy.png
         ├── docker-hub.png
-        ├── argocd-application.png
         ├── argocd-self-healing.png
-        ├── kyverno.png
-        ├── keda-scaledobject.png
         ├── keda-scale-up.png
-        ├── keda-scale-down.png
         ├── prometheus.png
         ├── grafana-dashboard.png
         └── end-to-end-test.png
