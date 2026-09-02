@@ -1025,7 +1025,6 @@ All visual evidence is organized under `docs/screenshots/`.
 
 | Evidence | Screenshot |
 |---|---|
-| EKS cluster / infrastructure | [**View Screenshot →**](docs/screenshots/aws-eks-cluster.png) |
 | Kubernetes workloads | [**View Screenshot →**](docs/screenshots/eks-workloads.png) |
 
 ## 🔄 CI/CD & Security
@@ -1041,17 +1040,16 @@ All visual evidence is organized under `docs/screenshots/`.
 
 | Evidence | Screenshot |
 |---|---|
-| Argo CD application | [**View Screenshot →**](docs/screenshots/argocd-application.png) |
+
 | Argo CD self-healing | [**View Screenshot →**](docs/screenshots/argocd-self-healing.png) |
-| Kyverno policy enforcement | [**View Screenshot →**](docs/screenshots/kyverno.png) |
+
 
 ## 📈 Autoscaling
 
 | Evidence | Screenshot |
 |---|---|
-| KEDA ScaledObject | [**View Screenshot →**](docs/screenshots/keda-scaledobject.png) |
 | KEDA scale-up: 1 → 2 → 3 | [**View Screenshot →**](docs/screenshots/keda-scale-up.png) |
-| KEDA scale-down | [**View Screenshot →**](docs/screenshots/keda-scale-down.png) |
+
 
 ## 📊 Observability
 
